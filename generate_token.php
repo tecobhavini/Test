@@ -43,6 +43,8 @@ if (hash_equals($hmac, $computed_hmac)) {
 
 	// Show the access token (don't do this in production!)
 	echo $access_token;
+	
+	/* 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 */
 
 } else {
 	// Someone is trying to be shady!
